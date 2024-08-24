@@ -4,117 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment Second Page</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav">
         <a href="../First Page/index.html">First Page</a>
         <a href="./index.html">Second Page</a>
         <a href="../Third Page/index.html">Third Page</a>
         <a href="../Fourth Page/index.html">Fourth Page</a>
       </nav>
     </header>
-    <main>
-      <section>
+    <main class="main">
+      <section class="section">
         <div>
-          <h1>AltSchool Application Form Replica</h1>
-          <h3>Already an AltSchooler? Sign In!</h3>
-          <h1>Sign Up</h1>
-          <p>Take the next steps to apply at Altschool Africa</p>
+          <h1 class="h1">AltSchool Application Form Replica</h1>
+          <h3 class="h3">
+            Already an AltSchooler? <span class="sign-in">Sign In!</span>
+          </h3>
+          <h1 class="sign-up">Sign Up</h1>
+          <p class="p">Take the next steps to apply at Altschool Africa</p>
         </div>
       </section>
-      <section>
+      <form class="form">
         <div>
-          <label for="">First Name</label>
-          <br />
-          <input type="text" placeholder="Enter first name" />
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="Enter first name" />
         </div>
         <div>
-          <label for="">Last Name</label>
-          <br />
-          <input type="text" placeholder="Enter last name" />
+          <label for="last-name" class="last">Last Name</label>
+          <input type="text" id="last-name" placeholder="Enter last name" />
         </div>
         <div>
-          <label for="">Gender</label>
-          <br />
-          <select name="" id="">
+          <label for="gender">Gender</label>
+          <select id="gender">
             <option value="">Select gender</option>
-            <option value="">Male</option>
-            <option value="">Female</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
           </select>
         </div>
         <div>
-          <label for="">Date Of Birth</label>
-          <br />
-          <input type="date" />
+          <label for="dob" class="date">Date Of Birth</label>
+          <input type="date" id="dob" />
         </div>
         <div>
-          <label for="">Email Address</label>
-          <br />
-          <input type="text" placeholder="Enter email address" />
+          <label for="email">Email Address</label>
+          <input type="text" id="email" placeholder="Enter email address" />
         </div>
         <div>
-          <label for="">Phone Number</label>
-          <br />
-          <input type="text" placeholder=" 08143483948" />
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" placeholder="08143483948" />
         </div>
         <div>
-          <label for="">Country</label>
-          <br />
-          <select name="" id="">
+          <label for="country">Country</label>
+          <select id="country">
             <option value="">Select your country</option>
-            <option value="">Algeria</option>
-            <option value="">Bostwana</option>
-            <option value="">Congo</option>
-            <option value="">Dominica</option>
-            <option value="">Egypt</option>
-            <option value="">France</option>
-            <option value="">Ghana</option>
-            <option value="">India</option>
-            <option value="">Nigeria</option>
-            <option value="">Panama</option>
-            <option value="">Rwanda</option>
+            <option value="algeria">Algeria</option>
+            <option value="botswana">Botswana</option>
+            <option value="congo">Congo</option>
+            <option value="dominica">Dominica</option>
+            <option value="egypt">Egypt</option>
+            <option value="france">France</option>
+            <option value="ghana">Ghana</option>
+            <option value="india">India</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="panama">Panama</option>
+            <option value="rwanda">Rwanda</option>
           </select>
         </div>
         <div>
-          <label for="">State/City of Residence</label>
-          <br />
-          <input type="text" placeholder="Enter state of residence" />
+          <label for="state">State/City of Residence</label>
+          <input
+            type="text"
+            id="state"
+            placeholder="Enter state of residence"
+          />
         </div>
         <div>
-          <label for="">How did you hear about us?</label>
-          <br />
-          <select name="" id="">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+        </div>
+        <div>
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Enter password again"
+          />
+        </div>
+        <div>
+          <label for="referral">How did you hear about us?</label>
+          <select id="referral">
             <option value="">Facebook</option>
-            <option value="">Twitter</option>
-            <option value="">WhatsApp</option>
-            <option value="">Instagram</option>
-            <option value="">LinkedIn</option>
-            <option value="">YouTube</option>
+            <option value="twitter">Twitter</option>
+            <option value="whatsapp">WhatsApp</option>
+            <option value="instagram">Instagram</option>
+            <option value="linkedin">LinkedIn</option>
+            <option value="youtube">YouTube</option>
           </select>
         </div>
-        <div>
-          <label for="">Password</label>
-          <br />
-          <input type="password" placeholder="Enter password" />
-        </div>
-        <div>
-          <label for="">Confirm Password</label>
-          <br />
-          <input type="password" placeholder="Enter password again" />
-        </div>
-      </section>
-      <section>
-        <div>
-          <p>
-            By clicking continue, I agree to Terms of Use and acknowledge that I
-            have read the Privacy Policy.
-          </p>
-        </div>
-        <div>
-          <input type="submit" />
-        </div>
-      </section>
+      </form>
     </main>
+    <footer class="footer">
+      <p>
+        By clicking continue, I agree to
+        <span class="terms">Terms of Use</span> and acknowledge that I have read
+        the <span class="privacy">Privacy Policy.</span>
+      </p>
+      <input type="submit" />
+    </footer>
   </body>
 </html>
