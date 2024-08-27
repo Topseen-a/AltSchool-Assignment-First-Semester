@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: AlmarenaDisplayRegular, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #f4f4f4;
 }
 
@@ -52,7 +52,6 @@ body {
 .sign-in {
   color: #4c5eaf;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .sign-up {
