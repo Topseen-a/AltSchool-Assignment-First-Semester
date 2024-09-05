@@ -125,7 +125,7 @@ body {
   cursor: pointer;
 }
 
-.footer input[type="submit"] {
+.footer button[type="submit"] {
   background-color: #4caf50;
   color: white;
   border: none;
@@ -138,19 +138,19 @@ body {
   width: 50%;
 }
 
-.footer input[type="submit"]:hover {
-  background-color: #45a049;
+.footer button[type="submit"]:hover {
+  background-color: #235e26;
   transform: scale(1.05);
 }
 
-.footer input[type="submit"]:active {
+.footer button[type="submit"]:active {
   background-color: #397d3d;
   transform: scale(0.95);
 }
 
 @media (max-width: 768px) {
   .nav {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -187,7 +187,7 @@ body {
     font-size: 12px;
   }
 
-  .footer input[type="submit"] {
+  .footer button[type="submit"] {
     width: 100%;
     padding: 12px;
     font-size: 14px;
@@ -220,7 +220,7 @@ body {
     font-size: 10px;
   }
 
-  .footer input[type="submit"] {
+  .footer button[type="submit"] {
     font-size: 12px;
   }
 }

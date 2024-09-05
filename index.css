@@ -64,9 +64,17 @@ footer a {
   border-radius: 4px;
 }
 
+.footer a:hover {
+  background-color: white;
+  color: #4c5eaf;
+  border-color: #4c5eaf;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+
 @media (max-width: 768px) {
   .nav {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
